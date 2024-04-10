@@ -1,0 +1,5 @@
+<div class="profile" *ngIf="user">
+  <img src="{{ user.photoURL }}" alt="" />
+  <p>Nome: {{ user.displayName }}</p>
+  <p>Email: {{ user.email }}</p>
+</div>

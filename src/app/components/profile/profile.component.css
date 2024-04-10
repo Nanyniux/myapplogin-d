@@ -1,0 +1,13 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 29px;
+}
+
+img {
+  height: 200px;
+}
